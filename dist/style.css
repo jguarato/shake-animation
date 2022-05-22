@@ -1,0 +1,18 @@
+body,
+html {
+	height: 100%;
+	display: grid;
+	background: rgb(245, 210, 228);
+	background: radial-gradient(
+		circle,
+		rgba(208, 230, 218, 1) 0%,
+		rgba(169, 213, 235, 1) 33%,
+		rgba(212, 199, 226, 1) 66%,
+		rgba(245, 210, 228, 1) 100%
+	);
+}
+
+.shake {
+	font-size: 10rem;
+	margin: auto;
+}
