@@ -1,4 +1,7 @@
-## 🥤Shaking the milkshake (animation with JavaScript)
+## 🥤Shaking objects
 
-A Pen created on CodePen.io for the <strong>#CodePenChallenge: Shake</strong>. Original URL: [https://codepen.io/jguarato/pen/VwQjger](https://codepen.io/jguarato/pen/VwQjger).
+* Animation developed with JavaScript;
+* On mouse over event;
+* The object gains movement, it shakes;
+* A Pen created on CodePen.io for the <strong>#CodePenChallenge: Shake</strong>. Original URL: [https://codepen.io/jguarato/pen/VwQjger](https://codepen.io/jguarato/pen/VwQjger).
 
