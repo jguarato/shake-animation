@@ -1,4 +1,4 @@
-## 🥤Shaking objects
+## 🥤Shake animation
 
 * Animation developed with JavaScript;
 * On mouse over event;
