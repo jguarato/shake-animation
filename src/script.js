@@ -1,10 +1,14 @@
 function shakeElement(element) {
 	// Play with the parameters below to change shake/animation:
-	const minAngle = -30;
-	const maxAngle = 30;
-	let absDeltaAngle = 10; // Must be a value smaller than the angle range
-	const numRepetitions = 4;
-	const intervalTime = 10;
+	const maxAngle = parseInt(document.getElementById("angleSlider").value);
+	const minAngle = -maxAngle;
+	let absDeltaAngle = maxAngle / 2; // Must be a value smaller than the angle range
+	const numRepetitions = parseInt(
+		document.getElementById("repetitionsNum").value
+	);
+	const intervalTime = -parseInt(
+		document.getElementById("velocitySlider").value
+	);
 
 	const centerAngle = (maxAngle - minAngle) / 2 + minAngle;
 

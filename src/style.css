@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500;600&display=swap");
+
 body,
 html {
-	height: 100%;
-	display: grid;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	display: block;
 	background: rgb(245, 210, 228);
 	background: radial-gradient(
 		circle,
@@ -10,9 +15,90 @@ html {
 		rgba(212, 199, 226, 1) 66%,
 		rgba(245, 210, 228, 1) 100%
 	);
+	font-family: Poppins, sans-serif;
+}
+
+.container {
+	height: 70vh;
+	display: grid;
+	place-items: center;
+}
+
+.container h1 span {
+	text-decoration: none;
+	background: linear-gradient(
+		to right,
+		rgba(208, 230, 218, 1) 0%,
+		rgba(169, 213, 235, 1) 33%,
+		rgba(212, 199, 226, 1) 66%,
+		rgba(245, 210, 228, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container h1 {
+	padding: 1vmin;
+	box-shadow: 0 0 1vmin #1c1c1e;
+	background-color: #1c1c1e;
+	font-size: 4vh;
 }
 
 .shake {
-	font-size: 10rem;
-	margin: auto;
+	font-size: 25vmin;
+	cursor: pointer;
+}
+
+.input-params {
+	position: fixed;
+	right: 0;
+	width: 25vmin;
+	margin-top: -10vmin;
+	padding: 2vmin 0;
+	background-color: white;
+	border-radius: 1.5vmin 0 0 1.5vmin;
+	text-align: center;
+	color: #1e1f26;
+	font-size: 3vmin;
+}
+
+input[type="range"] {
+	width: 20vmin;
+}
+
+input[type="number"] {
+	width: 6vmin;
+	padding-left: 1.5vmin;
+	background-color: #908d92;
+	border: solid 0.1vmin #908d92;
+	border-radius: 0.5vmin;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 3.2vmin;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 1vmin;
+	box-shadow: 0 0 1vmin #1c1c1e;
+	background-color: #1c1c1e;
+	font-size: 2vh;
+	font-weight: 600;
+	text-align: right;
+}
+
+.pens-light {
+	color: #1a238f;
+	text-decoration: none;
+	background: linear-gradient(
+		to right,
+		rgba(208, 230, 218, 1) 0%,
+		rgba(169, 213, 235, 1) 33%,
+		rgba(212, 199, 226, 1) 66%,
+		rgba(245, 210, 228, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

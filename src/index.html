@@ -1,1 +1,19 @@
-<span class="shake" onmouseover="shakeElement(this)">🥤</span>
+<div class="container">
+	<h1><span>Click to shake</span></h1>
+	<div class="shake" onclick="shakeElement(this)">🥤</div>
+</div>
+
+<div class="input-params">
+	Velocity
+	<input type="range" min="-150" max="-10" value="-10" step="10" id="velocitySlider">
+	<br>
+	Angle
+	<input type="range" min="5" max="45" value="10" step="5" id="angleSlider">
+	<br>
+	Repetitions
+	<br>
+	<input type="number" min="1" max="10" value="4" step="1" id="repetitionsNum">
+</div>
+<footer>
+	<a class="pens-light" href="https://codepen.io/jguarato">| SEE MY OTHER PENS |</a>
+</footer>
